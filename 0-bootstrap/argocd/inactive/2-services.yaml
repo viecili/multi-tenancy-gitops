@@ -76,7 +76,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "200"
 spec:
   destination:
-    namespace: openshift-gitops
+    namespace: hv-gitops
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -96,7 +96,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "250"
 spec:
   destination:
-    namespace: openshift-gitops
+    namespace: hv-gitops
     server: https://kubernetes.default.svc
   project: default
   source:
