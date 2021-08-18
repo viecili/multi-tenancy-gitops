@@ -4,7 +4,7 @@ metadata:
   name: bootstrap
 spec:
   destination:
-    namespace: openshift-gitops
+    namespace: hv-gitops
     server: https://kubernetes.default.svc
   project: default
   source:
